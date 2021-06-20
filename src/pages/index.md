@@ -1,7 +1,27 @@
 ---
 templateKey: index-page
+title: JUNIPA LEARN
+image: /img/bg-home.png
+heading: Managing NCCD your way
+subheading: Level-up your JUNIPA knowledge and take the power back
+
+description: >-
+  Kaldi is the ultimate spot for coffee lovers who want to learn about their
+  java’s origin and support the farmers that grew it. We take coffee production,
+  roasting and brewing seriously and we’re glad to pass that knowledge to
+  anyone.
+intro:
+  blurbs:
+    - image: /img/bg-home.png
+      text: Icon    
+---
+
+
+
+<!-- ---
+templateKey: index-page
 title: Great coffee with a conscience
-image: /img/home-jumbotron.jpg
+image: /img/bg-home.svg
 heading: Great coffee with a conscience
 subheading: Support sustainable farming while enjoying a cup
 mainpitch:
@@ -67,4 +87,4 @@ main:
   image3:
     alt: Coffee beans
     image: /img/products-grid1.jpg
----
+--- -->
