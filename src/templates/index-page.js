@@ -7,17 +7,18 @@ import iconFundamentals from "../../static/img/icon-fundamentals.svg";
 import iconSetup from "../../static/img/icon-setup.svg";
 import iconTutorials from "../../static/img/icon-tutorials.svg";
 
-export const IndexPageTemplate = ({ image, title, subheading }) => ( < div >
-            <div className = "full-width-image margin-top-0"
-    style = {
-        {
-            backgroundImage: `url(${
+export const IndexPageTemplate = ({ image, title, subheading, description }) => ( < div >
+        <
+        div className = "full-width-image margin-top-0"
+        style = {
+            {
+                backgroundImage: `url(${
           !!image.childImageSharp ? image.childImageSharp.fluid.src : image
         })`,
-            backgroundPosition: `top left`,
-            backgroundAttachment: `fixed`,
-        }
-    } >       < div style = {
+                backgroundPosition: `top left`,
+                backgroundAttachment: `fixed`,
+            }
+        } > < div style = {
             {
                 display: "flex",
                 height: "150px",
@@ -44,7 +45,7 @@ export const IndexPageTemplate = ({ image, title, subheading }) => ( < div >
                 lineHeight: "1",
                 padding: "0.25em"
             }
-        } > { subheading } <
+        } > { description } <
         /h3> < /
         div > <
         /div> <
